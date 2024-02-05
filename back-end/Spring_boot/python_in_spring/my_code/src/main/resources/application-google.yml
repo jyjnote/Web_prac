@@ -1,0 +1,11 @@
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 797661503883-i0c3508b56cchat7selr369l9q85dfgf.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - profile
+              - email
+
