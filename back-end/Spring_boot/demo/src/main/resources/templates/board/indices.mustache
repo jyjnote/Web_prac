@@ -1,0 +1,26 @@
+{{>layouts/header}}
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Title</th>
+        <th scope="col">Content</th>
+        <th scope="col">Option</th> <!-- 추가된 열 -->
+    </tr>
+    </thead>
+    <tbody>
+    {{#boardList}}
+        <tr>
+            <th>{{id}}</th>
+            <td>{{title}}</td>
+            <td>{{content}}</td>
+            <td>
+                <!-- 상세보기 버튼, 게시물 ID를 URL에 포함 -->
+                <a href="/board/{{id}}" class="btn btn-primary">View</a>
+            </td>
+        </tr>
+    {{/boardList}}
+    </tbody>
+</table>
+<a href="/board/new">New Board</a>
+{{>layouts/footer}}

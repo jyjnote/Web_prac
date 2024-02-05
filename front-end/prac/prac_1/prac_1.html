@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 1. 부트스트랩 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- 3. 네비게이션바 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- 브랜드 -->
+      <a class="navbar-brand" href="#"><strong>프론트엔드 입문!</strong></a>
+
+      <!-- 토글 버튼 -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 토글 내용-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- 네이게이션 리스트 -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HTML</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">부트스트랩</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 4. 점보트론 -->
+    <div class="jumbotron">
+      <h1 class="display-4">프론트엔드 입문!</h1>
+      <p class="lead">
+        프론트엔드 학습을 위한 HTML과 CSS. 이를 부트스트랩 페이지로 정리해보자!
+      </p>
+      <hr class="my-4" />
+      <p>더 자세한 내용을 원하신다면? 아래 버튼을 클릭하세요!</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">
+        Learn more
+      </a>
+    </div>
+
+    <!-- 5. 미디어 -->
+    <div class="media">
+      <img src="images/html-5.png" class="mr-3" alt="..." />
+      <div class="media-body">
+        <h5 class="mt-0">HTML?</h5>
+        실제 문서의 내용. 꾸며지지 않은 순수 컨텐츠! 쌩얼에 비유할 수 있음.
+      </div>
+    </div>
+
+    <div class="media">
+      <img src="" class="mr-3" alt="..." />
+      <div class="media-body">
+        <h5 class="mt-0">CSS?</h5>
+        웹 문서를 꾸밈. 글꼴, 색상, 배치 등..! 쌩얼에 메이크업을 한다면..?
+      </div>
+    </div>
+
+    <div class="media">
+      <img src="images/bootstrap.png" class="mr-3" alt="..." />
+      <div class="media-body">
+        <h5 class="mt-0">Bootstrap?</h5>
+        웹 프론트엔드 라이브러리. 미리 만들어진 HTML과 CSS를 가져다가 쓰는 개념!
+        자바스크립트도 있으나 배우지 않은 관계로 생략한다.
+      </div>
+    </div>
+
+    <!-- 2. 부트스트랩 JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
