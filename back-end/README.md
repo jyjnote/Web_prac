@@ -1,8 +1,8 @@
 # 백엔드 공부방
 
 **공부한것**
-
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.5.0-green.svg?style=for-the-badge&logo=spring)](https://spring.io/projects/spring-boot)
+<div>
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white"/>
 
 - 뷰 템블릿과 MVC 패턴
 - 폼 데이터 이해
@@ -19,11 +19,14 @@
 - ObjectMapper
 - 인텔리제이 안에서 파이썬 가상환경 가동
 - 모놀리식 아키텍처 파이썬 spacy 추천 시스템 가동
+</div>
 
-[![Django](https://img.shields.io/badge/Django-3.2.8-green.svg?style=for-the-badge&logo=django)](https://www.djangoproject.com/)
+<div>
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/>
 
 - 공부중...
+</div>
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-Integrated-9cf?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/>
 
 - 공부중...
