@@ -24,6 +24,6 @@
 
 - 공부중...
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-Integrated-9cf)](https://fastapi.tiangolo.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Integrated-9cf?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 
 - 공부중...
