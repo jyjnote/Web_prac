@@ -15,6 +15,10 @@
 
 *front*
 <div>
-  
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bootstrapap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
 </div>
+
 다음은 간단하게 익혀보고 사용해본 언어들 입니다. 해당 각 레파지토리안 폴더에 자세히 기술되어 있습니다
