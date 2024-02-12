@@ -1,4 +1,5 @@
 # 이 레파지토리는 그냥 웹 연습하는 공간입니다
+다음은 간단하게 익혀보고 사용해본 언어들 입니다. 해당 각 레파지토리안 폴더에 자세히 기술되어 있습니다.
 
 *etc*
 <div>
@@ -21,4 +22,4 @@
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
 </div>
 
-다음은 간단하게 익혀보고 사용해본 언어들 입니다. 해당 각 레파지토리안 폴더에 자세히 기술되어 있습니다
+
