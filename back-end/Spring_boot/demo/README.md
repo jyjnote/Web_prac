@@ -28,4 +28,8 @@ function(@pathvariable long value)  변수 가져오기
 리다이렉트
 return 'redirect:8000/~'+getter or function
 
-R
+Responsentity로 통신
+
+모든계층 분리 컨트롤러-서비스-레파지토
+
+트랜잭션
