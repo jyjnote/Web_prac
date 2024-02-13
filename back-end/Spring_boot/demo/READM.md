@@ -28,3 +28,4 @@ function(@pathvariable long value)  변수 가져오기
 리다이렉트
 return 'redirect:8000/~'+getter or function
 
+R
