@@ -1,6 +1,7 @@
 핵심 url에 변수를 잘 가져와 db에서 꺼내 잘 로직시킨
 application.property에 목적에 맞게 커스텀 설정
 
+DTO오는 json데이터 Entity는 DB데이터
 
 컨트롤러 get,post,patch,delete 등 있음
 리턴으로 뷰페이지 혹은 restapi 보내줌
@@ -28,8 +29,18 @@ function(@pathvariable long value)  변수 가져오기
 리다이렉트
 return 'redirect:8000/~'+getter or function
 
-Responsentity로 통신
+Restcontroller,json,Responsentity로 통신
 
 모든계층 분리 컨트롤러-서비스-레파지토
 
 테스트 검증이 끝나면 트랜잭션로 롤백
+
+ERD 테이블 관계 구현
+
+manytoone 해당 클래스의 기준으
+JoinColumn(name='설정') 자동으로 대표 클래스의 유니크값과 연결
+
+JPArepository
+Query 어노테이션으로 DB-서비스 접근
+
+Jsonprorperty
